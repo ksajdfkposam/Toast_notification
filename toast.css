@@ -1,0 +1,79 @@
+#div-1{
+    width:100%;
+    height: 45.4em;
+    background-color: skyblue;
+    position: relative;
+}
+.btn{
+    width:10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top:20px;
+    left:50px;
+    background-color: aliceblue;
+
+}
+.btn-1{
+    width:10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top:20px;
+    left:200px;  
+    background-color: aliceblue;
+}
+
+.btn:hover{
+    background-color:coral; 
+}
+
+.btn-1:hover{
+    background-color:coral; 
+}
+#toastBox{
+    width:20%;
+
+    position: absolute;
+    bottom: 40px;
+    right:50px;
+}
+.toast{
+    position: relative;
+    margin-top: 10px;
+    width:100%;
+    height: 100%;
+    background-color: yellowgreen;
+    padding-top: 15px;
+   
+   
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.toast-1{
+    
+    width:100%;
+    background-color: bisque;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.t{
+    
+    width:100%;
+    height:10px;
+    position: absolute;
+    background-color: blue;
+    animation: anim 5s linear forwards;
+
+}
+
+@keyframes anim {
+ 100%{
+    width:0;
+ }
+}
